@@ -1,0 +1,27 @@
+# YOLO Dataset Configuration
+# Update 'path' to your local dataset directory
+
+path: /content/drive/MyDrive/Project_Hole_images2/yolo_dataset
+train: train
+val: val
+test: test
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['hole']
+
+# Augmentation parameters (used during training)
+hsv_h: 0.015        # Hue shift
+hsv_s: 0.7          # Saturation
+hsv_v: 0.4          # Value/brightness
+degrees: 10.0       # Rotation
+translate: 0.1      # Translation
+scale: 0.5          # Scale
+shear: 2.0          # Shear
+perspective: 0.0001
+flipud: 0.5         # Vertical flip
+fliplr: 0.5         # Horizontal flip
+mosaic: 1.0         # Mosaic augmentation
+mixup: 0.2          # Mixup augmentation
