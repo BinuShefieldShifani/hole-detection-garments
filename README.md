@@ -117,8 +117,6 @@ hole-detection-garments/
 │   └── evaluation.py         # Evaluator classes (ProductionEvaluator, DebugEvaluator)
 ├── configs/
 │   └── yolo_config.yaml      # YOLO training configuration
-├── results/
-│   └── sample_detections/    # Sample output images (coming soon)
 ├── data/
 │   └── README.md             # Dataset access instructions
 └── requirements.txt
@@ -157,7 +155,7 @@ results[0].show()
 
 ## 📦 Dataset
 
-The dataset consists of ~1,250 images (including augmented) of garments with and without 1–2mm holes, annotated in COCO format.
+The dataset consists of ~1,500 images (including augmented) of garments with and without 1–2mm holes, annotated in COCO format.
 
 **Dataset is available on request.** Please open an issue or contact via email with your use case and it will be shared directly.
 
